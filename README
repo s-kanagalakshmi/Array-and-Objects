@@ -1,1 +1,114 @@
+Ex_01 Reverse an Array 
 
+📌 Project Overview:
+This project is a simple web application that allows users to enter numbers into an array and reverse them using JavaScript. It features a UI built with HTML, CSS, and JavaScript.
+The core functionality is implemented using the .reverse() method to reverse the order of elements in the array.
+Input: [1, 2, 3, 4, 5] Output: [5, 4, 3, 2, 1]
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+Ex_02 Flatten an Array
+📌 Project Overview
+This project is a simple web application that allows users to input a nested array and flatten it using JavaScript.
+Flattening the Array using .flat():
+The .flat() method is used to convert a nested array into a single-level array.
+This method removes nesting and returns a new array with all sub-array elements concatenated into it.
+Example: [[1, 2], [3, 4]].flat() → [1, 2, 3, 4]
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+Ex_03 Find Duplicates
+📌 Project Overview
+This project is a simple web application that allows users to enter numbers into an array and check for duplicate elements using JavaScript. 
+Adding elements: The user inputs numbers, which are stored in an array.
+Finding duplicates using .filter() and .indexOf():
+The .filter() method is used to iterate through the array.
+The .indexOf() method checks if an element appears more than once.
+If duplicates exist, the message "Array has Duplicate elements" is displayed; otherwise, "No duplicate elements in array" appears.
+Input: [1, 2, 3, 4, 5, 1] Output: Array has Duplicate elements;; Input: [1, 2, 3, 4, 5] Output: No duplicate elements in array
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+Ex_04 Merge Objects 
+📌 Project Overview
+This project demonstrates how to merge two JavaScript objects using the spread operator (...). The merged object combines the properties of both input objects into a single object.
+
+🚀 Features
+Uses JavaScript's spread operator (...) for merging objects.
+Combines multiple objects into one without modifying the original objects.
+The spread operator extracts key-value pairs from multiple objects.
+A new object is created with all properties combined.
+If duplicate keys exist, the latest object's value overrides the previous one.
+📌 Example:
+let firstInput = { cake: 10, Chocolate: 12 };
+let secondInput = { donut: 13, dessert: 18 };
+Output:
+{ cake: 10, Chocolate: 12, donut: 13, dessert: 18 }
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+Ex_05 Find Maximum Number
+📌 Project Overview
+This project is a simple web application that allows users to enter numbers into an array and find the maximum number using JavaScript. The UI is built with HTML, CSS, and JavaScript.
+
+🚀 Features
+Users can add numbers to an array dynamically.
+The entered array is displayed in a text area.
+Clicking the "Find Maximum" button finds and displays the largest number.
+🛠️ Technologies Used
+HTML
+CSS
+JavaScript (DOM Manipulation, Math.max method)
+📜 JavaScript Logic
+The Math.max(...array) method is used to find the highest number in the array.
+The spread operator (...) is used to pass the array elements individually to Math.max.
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+Ex_06 Group Objects by Property - JavaScript Project
+📌 Project Overview
+This project provides a function to group objects based on a specified property in JavaScript. It uses the reduce method to organize objects into categories dynamically.
+
+🚀 Features
+Groups objects by a specified key (e.g., category).
+Uses the reduce() method for efficient processing.
+
+📜 JavaScript Logic
+The function iterates through the array using reduce().
+It checks if the property value exists in the result object.
+If not, it initializes an empty array for that property.
+It then pushes the object into the corresponding group.
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+Ex_07 Find Common Elements Between Two Arrays
+📌 Project Overview
+This JavaScript function finds the common elements between two arrays and returns them as a new array. It uses the .filter() method to check for elements that exist in both arrays.
+
+🚀 Features
+Takes two arrays as input.
+Returns an array containing the common elements.
+Uses efficient array filtering for comparison.
+How It Works
+The function takes two arrays as input.
+It uses .filter() to iterate through the first array and checks if each element is present in the second array using .includes().
+Returns a new array with the common elements.
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+
+Ex_08 Sum of Array Elements - JavaScript Project
+📌 Project Overview
+This project provides a simple JavaScript function to calculate the sum of all elements in an array. The function iterates through the array and accumulates the total sum.
+
+🚀 Features
+Accepts an array of numbers as input.
+Iterates through the array and computes the sum of all elements.
+Returns the final sum.
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+
+Ex_09  Remove Falsy Values from an Array
+📌 Project Overview
+This JavaScript function removes falsy values (such as 0, false, null, undefined, NaN, and "") from an array and returns a new array containing only truthy values.
+How It Works
+The function loops through the array.
+It checks if each element is truthy (not 0, false, null, undefined, NaN, or "").
+If the value is truthy, it is added to a new array.
+The final array containing only truthy values is returned.
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+
+Ex_10 Calculate the Average of an Array
+📌 Project Overview
+This JavaScript function calculates the average of all numerical elements in an array. It sums up the values and divides them by the total number of elements.
+
+🚀 Features
+Computes the average of an array of numbers.
+Uses a loop to iterate through all elements.
+Returns the calculated average as a single value.
